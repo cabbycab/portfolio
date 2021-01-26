@@ -1,4 +1,5 @@
 import "./HomePage.css";
+import { Link } from "react-router-dom";
 
 function HomePage(props) {
   return (
@@ -29,7 +30,7 @@ function HomePage(props) {
         <b>Email:</b> dkoski426@yahoo.com
         <b>Phone:</b> (510) 921-0641
         <b>LinkedIn:</b>{" "}
-        <a href="https://www.linkedin.com/in/danielle-koski/">My Profile</a>
+        <Link to="https://www.linkedin.com/in/danielle-koski/">My Profile</Link>
       </div>
     </main>
   );
