@@ -32,11 +32,6 @@ function Header(props) {
       <Link to="/" className="home-link">
         <h1>Danielle Koski</h1>
       </Link>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
-      </nav>
     </header>
   );
 }
