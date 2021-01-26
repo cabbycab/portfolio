@@ -16,19 +16,20 @@ h1 {
 p {
   font-size: 18px;
   color: white;
+  text-shadow: 1px 1px 5px black;
 }
 
 #Header a {
   text-decoration: none;
   color: white;
-  text-shadow: 1px 1px 5px grey;
+  text-shadow: 1px 1px 5px black;
   padding: 12px;
   font-size: 50px;
 }
 
 #Header a:hover,
 #Header a > h1:hover {
-  text-shadow: 1px 1px 5px white;
+  text-shadow: 1px 1px 5px grey;
 }
 
 .sticky {

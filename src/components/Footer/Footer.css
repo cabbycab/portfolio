@@ -3,7 +3,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: grey;
   color: white;
-  height: 30px;
+  text-shadow: 1px 1px 5px black;
+}
+
+i {
+  font-size: 24px;
+  margin: 15px;
+}
+
+.copyright {
+  margin-bottom: 15px;
 }

@@ -27,8 +27,8 @@ function HomePage(props) {
       </div>
       <div className="info">
         <h3>Contact Me</h3>
-        <b>Email:</b> dkoski426@yahoo.com
-        <b>Phone:</b> (510) 921-0641
+        <b>Email:</b> dkoski426@yahoo.com <br />
+        <b>Phone:</b> (510) 921-0641 <br />
         <b>LinkedIn:</b>{" "}
         <Link to="https://www.linkedin.com/in/danielle-koski/">My Profile</Link>
       </div>
