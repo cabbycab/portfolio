@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(
-      rgba(255, 253, 253, 0.201),
-      rgba(252, 252, 252, 0.2)
-    ),
-    url("https://i.imgur.com/AOlRPMw.jpg");
+  background-image: url("https://i.imgur.com/HoFIya2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

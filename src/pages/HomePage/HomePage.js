@@ -5,12 +5,17 @@ function HomePage(props) {
   return (
     <main>
       <div className="info">
-        <h3>About Me</h3>I am a Software Engineer with a background in Account
-        Management for large events. I have experience managing multiple
-        projects and teams which require self-discipline and attention to
-        detail. It is my goal to be in a role when I can broaden my skills as a
-        developer while enhancing applications that create a smooth and lasting
-        experience for the user.
+        <h3>About Me</h3>
+        <img src="https://i.imgur.com/ZFUHlBc.jpg"></img>
+        <div id="about">
+          {" "}
+          I am a Software Engineer with a background in Account Management for
+          large events. I have experience managing multiple projects and teams
+          which require self-discipline and attention to detail. It is my goal
+          to be in a role when I can broaden my skills as a developer while
+          enhancing applications that create a smooth and lasting experience for
+          the user.
+        </div>
       </div>
       <div className="info">
         <h3>My Projects</h3>
