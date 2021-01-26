@@ -4,5 +4,5 @@
 - Projects
 - Resume
 - GitHub Profile
-- LinkIn Profile
+- LinkedIn Profile
 - Contact Information
