@@ -6,7 +6,7 @@ function HomePage(props) {
     <main>
       <div className="info">
         <h3>About Me</h3>
-        <img src="https://i.imgur.com/ZFUHlBc.jpg"></img>
+        <img src="https://i.imgur.com/ZFUHlBc.jpg" alt="profile-photo"></img>
         <div id="about">
           {" "}
           I am a Software Engineer with a background in Account Management for
@@ -35,7 +35,9 @@ function HomePage(props) {
         <b>Email:</b> dkoski426@yahoo.com <br />
         <b>Phone:</b> (510) 921-0641 <br />
         <b>LinkedIn:</b>{" "}
-        <Link to="https://www.linkedin.com/in/danielle-koski/">My Profile</Link>
+        <a href="https://www.linkedin.com/in/danielle-koski/" target="_blank">
+          My Profile
+        </a>
       </div>
     </main>
   );
