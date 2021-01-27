@@ -92,8 +92,13 @@ function HomePage(props) {
             </a>
           </div>
 
-          {/* <div className="card">
+          <div className="card">
             <h5>Diabetes Log</h5>
+            <img
+              src="https://i.imgur.com/Ri4nPlZ.png"
+              alt="diabetes log"
+              className="site-images"
+            />
             <article>
               A simple multi-page web application that allows diabetics or their
               caretakers to track blood sugar, carb, and insulin intake with
@@ -107,7 +112,7 @@ function HomePage(props) {
             >
               Diabetes Log
             </a>
-          </div> */}
+          </div>
 
           <div className="card">
             <h5>Recipe Finder</h5> <br />
