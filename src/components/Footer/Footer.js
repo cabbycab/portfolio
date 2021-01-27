@@ -15,7 +15,7 @@ function Footer(props) {
           <i class="fab fa-linkedin"></i>
         </a>
         <a
-          href="https://drive.google.com/file/d/1g-e-p7bxpyd0NZm28QcdxCx0OIn8f9oQ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1nBnH-0Yitrj95kPmk68TpSeoM8tU_9LY/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

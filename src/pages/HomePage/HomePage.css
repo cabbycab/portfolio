@@ -7,16 +7,17 @@
   padding: 15px;
 }
 
-img {
+#profile-pic {
   float: left;
-  margin: 0 12px 12px 12px;
+  margin: 0 20px 20px 20px;
+  box-shadow: 1px 1px 8px 1px grey;
   border-radius: 5px;
 }
 
 #about {
-  margin: 12px;
+  margin: 12px 12px 12px 25px;
   display: flex;
-  /* text-align: left; */
+  text-align: left;
 }
 
 h2 {
@@ -30,8 +31,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 280px;
-  height: 280px;
+  width: 800px;
+  height: 400px;
   margin: 15px;
   box-shadow: 1px 1px 8px 1px grey;
   font-size: 18px;
@@ -42,9 +43,18 @@ h2 {
   padding: 15px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
   max-width: 1500px;
+}
+
+.site-images {
+  width: 300px;
+  height: auto;
+  float: left;
+  text-align: left;
+  margin: 0 20px 20px 20px;
+  box-shadow: 1px 1px 8px 1px grey;
+  border-radius: 5px;
 }
 
 a.site-link {
@@ -55,19 +65,26 @@ a.site-link {
   text-decoration: none;
   display: inline-block;
   border-radius: 8px;
-  width: 60%;
+  width: 175px;
 }
 
 h5 {
   font-weight: bold;
 }
+
 article {
   font-size: 16px;
   margin: 12px;
+  text-align: left;
 }
 
-@media (min-width: 480px) {
-  img {
+.tech {
+  margin: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  #profile-pic {
     float: none;
+    text-align: center;
   }
 }
