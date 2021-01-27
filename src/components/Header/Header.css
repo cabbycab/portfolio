@@ -6,14 +6,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: bold;
   margin-bottom: 0;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  font-family: "Rubik", sans-serif;
 }
 
-p {
+.title {
   font-size: 18px;
   color: white;
   text-shadow: 1px 1px 5px black;
@@ -23,7 +31,6 @@ p {
   text-decoration: none;
   color: white;
   text-shadow: 1px 1px 5px black;
-  padding: 12px;
   font-size: 50px;
 }
 
@@ -32,9 +39,6 @@ p {
   text-shadow: 1px 1px 5px grey;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
+.icons {
+  margin: 0;
 }

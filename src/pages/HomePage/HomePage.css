@@ -1,5 +1,7 @@
 .info {
   background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 8px 1px grey;
+  border-radius: 5px;
   width: 75%;
   margin: 20px;
   padding: 15px;
@@ -8,29 +10,30 @@
 img {
   float: left;
   margin: 0 12px 12px 12px;
+  border-radius: 5px;
 }
+
 #about {
   margin: 12px;
   display: flex;
-  text-align: left;
+  /* text-align: left; */
 }
 
 h2 {
   font-size: 24px;
   font-weight: bold;
   margin: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .card {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 200px;
-  height: 350px; */
   width: 280px;
   height: 280px;
   margin: 15px;
-  box-shadow: 1px 1px 8px 1px white;
+  box-shadow: 1px 1px 8px 1px grey;
   font-size: 18px;
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -52,6 +55,7 @@ a.site-link {
   text-decoration: none;
   display: inline-block;
   border-radius: 8px;
+  width: 60%;
 }
 
 h5 {
@@ -60,4 +64,10 @@ h5 {
 article {
   font-size: 16px;
   margin: 12px;
+}
+
+@media (min-width: 480px) {
+  img {
+    float: none;
+  }
 }

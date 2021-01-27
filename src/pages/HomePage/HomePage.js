@@ -8,16 +8,17 @@ function HomePage(props) {
         <img src="https://i.imgur.com/ZFUHlBc.jpg" alt="profile"></img>
         <div id="about">
           {" "}
-          I am a Software Engineer with a background in Account Management for
-          large events. I have experience managing multiple projects and teams
-          which require self-discipline and attention to detail. It is my goal
-          to be in a role when I can broaden my skills as a developer while
-          enhancing applications that create a smooth and lasting experience for
-          the user.
+          I am a Software Engineer in the San Francisco Bay Area with a
+          background in Account Management for large events. I have experience
+          managing multiple projects and teams which require self-discipline and
+          attention to detail. It is my goal to be in a role when I can broaden
+          my skills as a developer while enhancing applications that create a
+          smooth and lasting experience for the user. <br />
         </div>
       </div>
       <div className="info">
         <h2>My Projects</h2>
+
         <div className="container">
           <div className="card">
             <h5>Yoga Poses</h5>
@@ -70,7 +71,7 @@ function HomePage(props) {
             </a>
           </div>
 
-          <div className="card">
+          {/* <div className="card">
             <h5>Diabetes Log</h5>
             <article>
               A simple multi-page web application that allows diabetics or their
@@ -85,7 +86,8 @@ function HomePage(props) {
             >
               Diabetes Log
             </a>
-          </div>
+          </div> */}
+
           <div className="card">
             <h5>Recipe Finder</h5>
             <article>
@@ -107,7 +109,8 @@ function HomePage(props) {
       <div className="info">
         <h2>Technologies</h2>
         HTML5 | CSS3 | JavaScript | jQuery | Node.js | Express.js | React.js |
-        MongoDB | Mongoose | Ruby on Rails | PostgreSQL
+        MongoDB | Mongoose | Ruby | Ruby on Rails | PostgreSQL | Trello | Heroku
+        | Postman | Bootstrap | Git | GitHub
       </div>
       <div className="info">
         <h2>Contact Me</h2>
