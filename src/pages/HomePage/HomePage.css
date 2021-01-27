@@ -7,10 +7,57 @@
 
 img {
   float: left;
-  margin: 0 12px 0 12px;
+  margin: 0 12px 12px 12px;
 }
 #about {
   margin: 12px;
   display: flex;
   text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 200px;
+  height: 350px; */
+  width: 280px;
+  height: 280px;
+  margin: 15px;
+  box-shadow: 1px 1px 8px 1px white;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1500px;
+}
+
+a.site-link {
+  background-color: rgb(56, 117, 208);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+h5 {
+  font-weight: bold;
+}
+article {
+  font-size: 16px;
+  margin: 12px;
 }
