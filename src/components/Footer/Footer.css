@@ -16,7 +16,7 @@ i {
 }
 
 i:hover {
-  text-shadow: 1px 1px 5px grey;
+  text-shadow: 1px 1px 5px rgb(191, 189, 189);
 }
 
 .copyright {
