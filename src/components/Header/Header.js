@@ -8,7 +8,7 @@ function Header(props) {
         Software Engineer <br />
         San Francisco Bay Area{" "}
       </div>
-      <div className="icons">
+      <div className="icons-header">
         <a href="https://github.com/cabbycab" target="_blank" rel="noreferrer">
           <i class="fab fa-github-square"></i>
         </a>
