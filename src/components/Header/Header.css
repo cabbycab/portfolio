@@ -31,3 +31,10 @@ h1 {
   margin: 20px;
   text-shadow: 1px 1px 5px grey;
 }
+
+@media screen and (max-width: 800px) {
+  #Header {
+    padding: 25px;
+    height: 290px;
+  }
+}

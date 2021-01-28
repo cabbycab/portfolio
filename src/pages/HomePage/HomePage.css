@@ -97,4 +97,10 @@ article {
   .site-images {
     width: 250px;
   }
+  .info {
+    width: 90%;
+  }
+  .card {
+    margin: 15px 0 15px 0;
+  }
 }
