@@ -29,14 +29,15 @@ function HomePage(props) {
           <div className="card">
             <h5>Yoga Poses</h5> <br />
             <img
-              src="https://i.imgur.com/sZu3soa.png"
+              src="https://i.imgur.com/nXCLM4p.png"
               alt="yoga-poses"
               className="site-images"
             ></img>
             <article>
               In this app you can view 48 yoga poses, learn their sanskrit name,
               and view a YouTube video on how to perform each one. Has
-              functional email capability on the contact page.
+              functional email capability on the contact page. <br />
+              Built with an Express backend and a React frontend.
             </article>
             <a
               className="site-link"
@@ -51,7 +52,7 @@ function HomePage(props) {
           <div className="card">
             <h5>BreweryAdvisor</h5> <br />
             <img
-              src="https://i.imgur.com/AYANOVH.png"
+              src="https://i.imgur.com/I8l3eFQ.png"
               alt="brewery-advisor"
               className="site-images"
             />
@@ -59,6 +60,8 @@ function HomePage(props) {
               Collaborated with 2 other students on this full stack project
               allowing users to see breweries based on the city that they
               choose. They can also add, edit, or delete breweries.
+              <br />
+              Built with Ruby on Rails backend and a React frontend.
             </article>
             <a
               className="site-link"
@@ -73,14 +76,15 @@ function HomePage(props) {
           <div className="card">
             <h5>Animal Crossing Villagers</h5> <br />
             <img
-              src="https://i.imgur.com/mFRDh6W.png"
+              src="https://i.imgur.com/v0NXz7l.png"
               alt="anima-crossing-villagers"
               className="site-images"
             />
             <article>
               A full-stack MERN, single-page application that allows a logged in
               user to view all Villagers from Animal Crossing and add them to a
-              wish list.
+              wish list. <br />
+              Built with an Express backend and a React frontend.
             </article>
             <a
               className="site-link"
@@ -93,16 +97,18 @@ function HomePage(props) {
           </div>
 
           <div className="card">
-            <h5>Diabetes Log</h5>
+            <h5>Diabetes Log</h5> <br />
             <img
-              src="https://i.imgur.com/Ri4nPlZ.png"
+              src="https://i.imgur.com/lOTlrl1.png"
               alt="diabetes log"
               className="site-images"
             />
             <article>
               A simple multi-page web application that allows diabetics or their
-              caretakers to track blood sugar, carb, and insulin intake with
-              full Create, Read, Update, and Destroy capability.
+              caretakers to track blood sugar, carb, and insulin intake. Has
+              full CRUD capability.
+              <br />
+              Built in Express using MongoDB and Mongoose.
             </article>
             <a
               className="site-link"
@@ -117,14 +123,15 @@ function HomePage(props) {
           <div className="card">
             <h5>Recipe Finder</h5> <br />
             <img
-              src="https://i.imgur.com/3npZSCv.png"
+              src="https://i.imgur.com/j2MUONY.png"
               alt="recipe-finder"
               className="site-images"
             />
             <article>
               An application that allows you to search for recipes using the
               Spoonactular API. There are also links to categories of breakfast,
-              lunch, dinner, and dessert.
+              lunch, dinner, and dessert. <br />
+              Built using jQuery and called the API using AJAX.
             </article>
             <a
               className="site-link"
