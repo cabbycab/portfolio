@@ -1,12 +1,14 @@
+/* BACKGROUND BOXES */
 .info {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 1px 1px 8px 1px grey;
   border-radius: 5px;
-  width: 75%;
+  max-width: 1050px;
   margin: 20px;
   padding: 15px;
 }
 
+/* MY PROFILE PICTURE */
 #profile-pic {
   float: left;
   margin: 0 20px 20px 20px;
@@ -14,6 +16,7 @@
   border-radius: 5px;
 }
 
+/* ABOUT SECTION */
 #about {
   margin: 12px 12px 12px 25px;
   display: flex;
@@ -22,6 +25,7 @@
   justify-content: center;
 }
 
+/* TITLES FOR EACH SECTION */
 h2 {
   font-size: 24px;
   font-weight: bold;
@@ -29,6 +33,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
 }
 
+/* CARDS FOR EACH APP I MADE */
 .card {
   display: flex;
   justify-content: center;
@@ -41,14 +46,15 @@ h2 {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+/* PROJECTS CONTAINER */
 .container {
-  /* padding: 15px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1500px;
 }
 
+/* IMAGES FOR EACH WEBSITE */
 .site-images {
   width: 375px;
   height: auto;
@@ -61,6 +67,7 @@ h2 {
   border-radius: 5px;
 }
 
+/* BUTTON FOR EACH WEBSITE LINK */
 a.site-link {
   background-color: rgb(56, 117, 208);
   color: white;
@@ -72,20 +79,28 @@ a.site-link {
   width: 175px;
 }
 
+/* TITLE OF EACH WEBSITE */
 h5 {
   font-weight: bold;
 }
 
+/* DESCRIPTION OF EACH WEBSITE */
 article {
   font-size: 16px;
   margin: 12px;
   float: right;
 }
 
+/* TECHNOLOGY SECTION */
 .tech {
   margin: 12px;
 }
 
+#contact {
+  max-width: 1050px;
+}
+
+/* MEDIA QUERIES */
 @media screen and (max-width: 800px) {
   #profile-pic {
     float: none;

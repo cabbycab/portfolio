@@ -3,6 +3,7 @@ import "./HomePage.css";
 function HomePage(props) {
   return (
     <main>
+      {/* ABOUT ME */}
       <div className="info">
         <h2>About Me</h2>
         <img
@@ -21,10 +22,11 @@ function HomePage(props) {
           have a smooth and enjoyable experience. <br />
         </div>
       </div>
-
+      {/* MY PROJECTS */}
       <div className="info">
         <h2>My Projects</h2>
 
+        {/* YOGA POSES */}
         <div className="container">
           <div className="card">
             <h5>Yoga Poses</h5> <br />
@@ -48,7 +50,7 @@ function HomePage(props) {
               Yoga Poses
             </a>
           </div>
-
+          {/* BREWERY ADVISOR */}
           <div className="card">
             <h5>BreweryAdvisor</h5> <br />
             <img
@@ -72,7 +74,7 @@ function HomePage(props) {
               BreweryAdvisor
             </a>
           </div>
-
+          {/* ANIMAL CROSSING VILLAGERS */}
           <div className="card">
             <h5>Animal Crossing Villagers</h5> <br />
             <img
@@ -96,6 +98,7 @@ function HomePage(props) {
             </a>
           </div>
 
+          {/* DIABETES LOG */}
           <div className="card">
             <h5>Diabetes Log</h5> <br />
             <img
@@ -120,6 +123,7 @@ function HomePage(props) {
             </a>
           </div>
 
+          {/* RECEIPE FINDER */}
           <div className="card">
             <h5>Recipe Finder</h5> <br />
             <img
@@ -144,6 +148,8 @@ function HomePage(props) {
           </div>
         </div>
       </div>
+
+      {/* TECHNOLOGOIES */}
       <div className="info">
         <h2>Technologies</h2>
         <div className="tech">
@@ -152,6 +158,8 @@ function HomePage(props) {
           Heroku | Postman | Bootstrap | Git | GitHub
         </div>
       </div>
+
+      {/* CONTACT INFO */}
       <div className="info">
         <h2>Contact Me</h2>
         <div id="contact">
