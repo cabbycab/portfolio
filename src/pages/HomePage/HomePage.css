@@ -43,7 +43,7 @@ h2 {
   margin: 15px;
   box-shadow: 1px 1px 8px 1px grey;
   font-size: 18px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.55);
 }
 
 /* PROJECTS CONTAINER */
@@ -77,6 +77,10 @@ a.site-link {
   display: inline-block;
   border-radius: 8px;
   width: 175px;
+}
+
+a.site-link:hover {
+  box-shadow: 1px 1px 8px 1px grey;
 }
 
 /* TITLE OF EACH WEBSITE */

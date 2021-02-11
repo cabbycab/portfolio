@@ -10,7 +10,7 @@ function Header(props) {
       </div>
       <div className="icons-header">
         <a href="https://github.com/cabbycab" target="_blank" rel="noreferrer">
-          <i class="fab fa-github-square"></i>
+          <i className="fab fa-github-square"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/danielle-koski/"
