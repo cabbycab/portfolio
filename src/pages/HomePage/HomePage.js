@@ -22,6 +22,17 @@ function HomePage(props) {
           have a smooth and enjoyable experience. <br />
         </div>
       </div>
+
+      {/* TECHNOLOGOIES */}
+      <div className="info">
+        <h2>Technologies</h2>
+        <div className="tech">
+          HTML5 | CSS3 | JavaScript | jQuery | Node.js | Express.js | React.js |
+          MongoDB | Mongoose | Ruby | Ruby on Rails | PostgreSQL | Trello |
+          Heroku | Postman | Bootstrap | Git | GitHub
+        </div>
+      </div>
+
       {/* MY PROJECTS */}
       <div className="info">
         <h2>My Projects</h2>
@@ -39,6 +50,7 @@ function HomePage(props) {
               In this app you can view 48 yoga poses, learn their sanskrit name,
               and view a YouTube video on how to perform each one. Has
               functional email capability on the contact page. <br />
+              <br />
               Built with an Express backend and a React frontend.
             </article>
             <a
@@ -63,7 +75,8 @@ function HomePage(props) {
               allowing users to see breweries based on the city that they
               choose. They can also add, edit, or delete breweries.
               <br />
-              Built with Ruby on Rails backend and a React frontend.
+              <br />
+              Built with Ruby on Rails backend with a React frontend.
             </article>
             <a
               className="site-link"
@@ -86,6 +99,7 @@ function HomePage(props) {
               A full-stack MERN, single-page application that allows a logged in
               user to view all Villagers from Animal Crossing and add them to a
               wish list. <br />
+              <br />
               Built with an Express backend and a React frontend.
             </article>
             <a
@@ -111,6 +125,7 @@ function HomePage(props) {
               caretakers to track blood sugar, carb, and insulin intake. Has
               full CRUD capability.
               <br />
+              <br />
               Built in Express using MongoDB and Mongoose.
             </article>
             <a
@@ -135,7 +150,8 @@ function HomePage(props) {
               An application that allows you to search for recipes using the
               Spoonactular API. There are also links to categories of breakfast,
               lunch, dinner, and dessert. <br />
-              Built using jQuery and called the API using AJAX.
+              <br />
+              Built using jQuery. Called the API using AJAX.
             </article>
             <a
               className="site-link"
@@ -149,7 +165,7 @@ function HomePage(props) {
         </div>
       </div>
 
-      {/* TECHNOLOGOIES */}
+      {/* TECHNOLOGOIES
       <div className="info">
         <h2>Technologies</h2>
         <div className="tech">
@@ -157,7 +173,7 @@ function HomePage(props) {
           MongoDB | Mongoose | Ruby | Ruby on Rails | PostgreSQL | Trello |
           Heroku | Postman | Bootstrap | Git | GitHub
         </div>
-      </div>
+      </div> */}
 
       {/* CONTACT INFO */}
       <div className="info">
