@@ -70,13 +70,15 @@ h2 {
 /* BUTTON FOR EACH WEBSITE LINK */
 a.site-link {
   background-color: rgb(56, 117, 208);
+  /* background-color: rgb(143, 143, 143); */
   color: white;
   padding: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 8px;
-  width: 175px;
+  width: 125px;
+  margin: 0 20px 0 20px;
 }
 
 a.site-link:hover {

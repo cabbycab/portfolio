@@ -53,14 +53,24 @@ function HomePage(props) {
               <br />
               Built with an Express backend and a React frontend.
             </article>
-            <a
-              className="site-link"
-              href="https://yogaposes-app.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Yoga Poses
-            </a>
+            <nav>
+              <a
+                className="site-link"
+                href="https://yogaposes-app.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Website
+              </a>
+              <a
+                className="site-link"
+                href="https://github.com/cabbycab/yoga_poses_frontend/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub Repo
+              </a>
+            </nav>
           </div>
           {/* BREWERY ADVISOR */}
           <div className="card">
@@ -78,14 +88,24 @@ function HomePage(props) {
               <br />
               Built with Ruby on Rails backend with a React frontend.
             </article>
-            <a
-              className="site-link"
-              href="https://brewery-advisor-app.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              BreweryAdvisor
-            </a>
+            <nav>
+              <a
+                className="site-link"
+                href="https://brewery-advisor-app.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Website
+              </a>
+              <a
+                className="site-link"
+                href="https://github.com/cabbycab/brewery_advisor_client/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub Repo
+              </a>
+            </nav>
           </div>
           {/* ANIMAL CROSSING VILLAGERS */}
           <div className="card">
@@ -102,14 +122,24 @@ function HomePage(props) {
               <br />
               Built with an Express backend and a React frontend.
             </article>
-            <a
-              className="site-link"
-              href="https://animal-crossing-villagers.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Animal Crossing
-            </a>
+            <nav>
+              <a
+                className="site-link"
+                href="https://animal-crossing-villagers.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Website
+              </a>
+              <a
+                className="site-link"
+                href="https://github.com/cabbycab/Animal-Crossing-Villagers-frontend/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub Repo
+              </a>
+            </nav>
           </div>
 
           {/* DIABETES LOG */}
@@ -128,14 +158,24 @@ function HomePage(props) {
               <br />
               Built in Express using MongoDB and Mongoose.
             </article>
-            <a
-              className="site-link"
-              href="https://carbtracker-diabetes-log.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Diabetes Log
-            </a>
+            <nav>
+              <a
+                className="site-link"
+                href="https://carbtracker-diabetes-log.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Website
+              </a>
+              <a
+                className="site-link"
+                href="https://github.com/cabbycab/carbtracker/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub Repo
+              </a>
+            </nav>
           </div>
 
           {/* RECEIPE FINDER */}
@@ -153,14 +193,24 @@ function HomePage(props) {
               <br />
               Built using jQuery. Called the API using AJAX.
             </article>
-            <a
-              className="site-link"
-              href="https://cabbycab.github.io/Recipe-Search-App/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Recipe Finder
-            </a>
+            <nav>
+              <a
+                className="site-link"
+                href="https://cabbycab.github.io/Recipe-Search-App/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Website
+              </a>
+              <a
+                className="site-link"
+                href="https://github.com/cabbycab/Recipe-Search-App"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub Repo
+              </a>
+            </nav>
           </div>
         </div>
       </div>
