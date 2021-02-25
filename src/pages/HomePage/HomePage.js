@@ -56,7 +56,7 @@ function HomePage(props) {
             <nav>
               <a
                 className="site-link"
-                href="https://yogaposes-app.herokuapp.com/"
+                href="https://yoga-poses.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
