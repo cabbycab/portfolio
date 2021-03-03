@@ -79,6 +79,7 @@ a.site-link {
   border-radius: 8px;
   width: 125px;
   margin: 0 20px 0 20px;
+  font-size: 16px;
 }
 
 a.site-link:hover {
@@ -123,5 +124,11 @@ article {
   }
   .card {
     margin: 15px 0 15px 0;
+    height: 600px;
+  }
+  a.site-link {
+    margin: 5px 12px 5px 12px;
+    font-size: 14px;
+    width: 100px;
   }
 }
