@@ -1,6 +1,8 @@
 # My Portfolio
 
-Built with React.js
+Portfolio built with React.js
+
+Includes:
 
 - Bio
 - Profile Photo
@@ -12,3 +14,7 @@ Built with React.js
 ### Deployed Website:
 
 https://www.daniellekoski.dev
+
+### Screenshot
+
+![screenshot](https://i.imgur.com/ZXp6SYy.png)
