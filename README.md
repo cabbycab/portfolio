@@ -1,12 +1,14 @@
 # My Portfolio
 
-- Bio with Profile Photo
-- My Projects
+Built with React.js
+
+- Bio
+- Profile Photo
 - Technologies I Use
-- Contact Information
+- My Projects
 - Contact Information
 - Links to: GitHub, LinkedIn, and Resume
 
 ### Deployed Website:
 
-https://www.daniellekoski.dev/
+https://www.daniellekoski.dev
