@@ -215,16 +215,6 @@ function HomePage(props) {
         </div>
       </div>
 
-      {/* TECHNOLOGOIES
-      <div className="info">
-        <h2>Technologies</h2>
-        <div className="tech">
-          HTML5 | CSS3 | JavaScript | jQuery | Node.js | Express.js | React.js |
-          MongoDB | Mongoose | Ruby | Ruby on Rails | PostgreSQL | Trello |
-          Heroku | Postman | Bootstrap | Git | GitHub
-        </div>
-      </div> */}
-
       {/* CONTACT INFO */}
       <div className="info">
         <h2>Contact Me</h2>
