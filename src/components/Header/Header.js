@@ -26,7 +26,7 @@ function Header(props) {
           <i class="fab fa-linkedin"></i>
         </a>
         <a
-          href="https://drive.google.com/file/d/1nBnH-0Yitrj95kPmk68TpSeoM8tU_9LY/view?usp=sharing"
+          href="https://drive.google.com/file/d/1vXrXxNgcJisp3CeNwqI-xzeunX1Sc4pK/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           title="RESUME"
